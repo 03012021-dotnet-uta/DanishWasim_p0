@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using PizzaBox.Domain.Models;
 
 namespace PizzaBox.Domain.Abstracts
@@ -6,6 +7,13 @@ namespace PizzaBox.Domain.Abstracts
   /// <summary>
   /// 
   /// </summary>
+  /// 
+  [XmlInclude(typeof(CustomPizza))]
+  [XmlInclude(typeof(VeganPizza))]
+  [XmlInclude(typeof(MeatPizza))]
+  [XmlInclude(typeof(VeggiePizza))]
+  [XmlInclude(typeof(HalalPizza))]
+
   public abstract class APizza
   {
     public Crust Crust { get; set; }

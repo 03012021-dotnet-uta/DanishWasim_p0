@@ -5,6 +5,7 @@ namespace PizzaBox.Domain.Models
   /// </summary>
   public class Customer
   {
+    public string CustName;
 
   }
 }

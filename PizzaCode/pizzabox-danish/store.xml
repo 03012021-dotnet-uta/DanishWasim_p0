@@ -6,4 +6,7 @@
   <AStore xsi:type="NewYorkStore">
     <Name>NewYork Store</Name>
   </AStore>
+  <AStore xsi:type="TexasStore">
+    <Name>Texs Pizza Store</Name>
+  </AStore>
 </ArrayOfAStore>

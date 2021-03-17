@@ -19,6 +19,38 @@ namespace PizzaBox.Testing.Tests
       Assert.Equal(expected, actual);
     }
 
+      [Fact]
+    public void Test_PizzaType_MeatPizza_Fact()
+    {
+      // arrange
+      var sut = new MeatPizza();
+      var expected = "thick";
+
+
+      // act
+      // var actual = sut.Name;
+      var actual = sut.Crust.Name; 
+
+      // assert
+      Assert.Equal(expected, actual);
+    }
+
+[Fact]
+    public void Customer()
+    {
+      // arrange
+      var sut = new MeatPizza();
+      var expected = "thick";
+
+
+      // act
+      // var actual = sut.Name;
+      var actual = sut.Crust.Name; 
+
+      // assert
+      Assert.Equal(expected, actual);
+    }
+
     [Theory]
     [InlineData("Chicago Store")]
     [InlineData("")]

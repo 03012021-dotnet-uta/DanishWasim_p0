@@ -6,7 +6,7 @@ namespace PizzaBox.Domain.Models
   /// <summary>
   /// 
   /// </summary>
-  public class MeatPizza : APizza
+  public class HalalPizza : APizza
   {
     protected override void AddCrust()
     {
@@ -24,6 +24,15 @@ namespace PizzaBox.Domain.Models
       {
         new Topping(),
         new Topping()
+        {
+            Name = "Halal Pepperoni",
+            Price = 7, 
+        },
+        new Topping() 
+        {
+            Name = "Halal Chicken", 
+            Price = 6,
+        }
       };
     }
   }

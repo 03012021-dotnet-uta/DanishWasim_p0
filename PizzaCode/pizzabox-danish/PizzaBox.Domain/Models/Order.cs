@@ -9,5 +9,8 @@ namespace PizzaBox.Domain.Models
   public class Order
   {
     public List<APizza> Pizzas { get; set; }
+    public Customer customer {get; set; }
+    public AStore store {get; set; } 
   }
 }
+

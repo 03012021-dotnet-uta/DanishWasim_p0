@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Order>
+    <Pizzas>
+      <APizza xsi:type="VeganPizza">
+        <Crust>
+          <Price>0</Price>
+        </Crust>
+        <Size>
+          <Price>0</Price>
+        </Size>
+        <Toppings>
+          <Topping>
+            <Price>0</Price>
+          </Topping>
+          <Topping>
+            <Price>0</Price>
+          </Topping>
+        </Toppings>
+      </APizza>
+    </Pizzas>
+    <customer>
+      <CustName>danish</CustName>
+    </customer>
+    <store xsi:type="ChicagoStore">
+      <Name>Chicago Store</Name>
+    </store>
+  </Order>
+</ArrayOfOrder>

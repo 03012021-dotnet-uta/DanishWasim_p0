@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAPizza xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <APizza xsi:type="HalalPizza">
+    <Crust>
+      <Price>0</Price>
+    </Crust>
+    <Size>
+      <Price>0</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+      <Topping>
+        <Name>Halal Pepperoni</Name>
+        <Price>7</Price>
+      </Topping>
+      <Topping>
+        <Name>Halal Chicken</Name>
+        <Price>6</Price>
+      </Topping>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="MeatPizza">
+    <Crust>
+      <Price>0</Price>
+    </Crust>
+    <Size>
+      <Price>0</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="VeganPizza">
+    <Crust>
+      <Price>0</Price>
+    </Crust>
+    <Size>
+      <Price>0</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+    </Toppings>
+  </APizza>
+  <APizza xsi:type="VeggiePizza">
+    <Crust>
+      <Price>0</Price>
+    </Crust>
+    <Size>
+      <Price>0</Price>
+    </Size>
+    <Toppings>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+      <Topping>
+        <Price>0</Price>
+      </Topping>
+    </Toppings>
+  </APizza>
+</ArrayOfAPizza>
